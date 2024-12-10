@@ -1,0 +1,87 @@
+/* General Reset */
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100%;
+    font-family: 'Arial Black', sans-serif;
+}
+
+/* Full-Screen Background Image with Brightness Adjustment */
+body {
+    background: url('47742c69-b287-483d-9d66-a3796ffc531d.webp') no-repeat center center fixed;
+    background-size: cover;
+    filter: brightness(1.2); /* Increases brightness by 20% */
+    color: #fff;
+}
+
+/* Overlay for Text Readability */
+.overlay {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay for text contrast */
+    padding: 20px;
+    text-align: center;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Vibrant African Techno Style */
+.party-title {
+    font-size: 2.5rem;
+    color: rgb(255, 94, 0); /* Bright Orange */
+    text-shadow: 2px 2px 4px rgb(0, 216, 255);
+    margin-bottom: 1rem;
+}
+
+.party-details {
+    font-size: 1.2rem;
+    color: rgb(0, 255, 127); /* Vibrant Green */
+    margin-bottom: 1.5rem;
+}
+
+/* Lineup Styling */
+.lineup h2 {
+    font-size: 1.8rem;
+    color: rgb(255, 20, 147); /* Vibrant Pink */
+    margin-bottom: 1rem;
+}
+
+.artist-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.artist-list li {
+    font-size: 1.2rem;
+    color: rgb(0, 255, 255); /* Cyan */
+    margin-bottom: 0.5rem;
+    text-shadow: 1px 1px 3px rgb(255, 255, 0); /* Subtle Glow */
+}
+
+/* Button Styling */
+.cta-button {
+    font-size: 1rem;
+    color: #000;
+    background-color: rgb(0, 255, 255); /* Cyan */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-transform: uppercase;
+    animation: pulse 1.5s infinite;
+    margin-top: 20px;
+}
+
+.cta-button:hover {
+    background-color: rgb(255, 20, 147); /* Deep Pink */
+}
+
+/* Animations */
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+}
